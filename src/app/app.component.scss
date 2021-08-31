@@ -1,0 +1,42 @@
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  height: 100vh;
+
+  .title{
+    font-size: 72px;
+    letter-spacing: 3px;
+  }
+
+  form{
+    .form-field{
+      width:500px;
+      .label{
+        color:#4285f4;
+      }
+      .mat-form-field-outline-start, .mat-form-field-outline-gap, .mat-form-field-outline-end{
+
+      }
+    }
+
+  }
+
+  .red{
+    color:#ea4335;
+  }
+
+  .blue{
+    color:#4285f4;
+  }
+
+  .yellow{
+    color:#fbbc05;
+  }
+
+  .green{
+    color:#34a853;
+  }
+}
+
